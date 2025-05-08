@@ -1,0 +1,7 @@
+Performance improve
+
+1)not exist 'id' to every field or button as example in 'login' layer the button to 'Log in' bit exist not name not id 
+2)the id of 'Login' ->login2 and 'sign up'->singin2
+3) the "laptop" category -> is notebook in Onclick
+
+not must to login to buy stuff ? 

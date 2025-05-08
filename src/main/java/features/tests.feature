@@ -35,3 +35,12 @@ Feature: open and test the website
       | buttonName | message             |
       | Sign up    | Sign up successful. |
 
+  Scenario Outline: a User put in card item
+    Given clicks on '<category>'
+    And press on product number <product>
+    Given press on '<buttonName>' button
+    Then got an alert with right '<message>'
+    And verify it exist in
+    Examples:
+      | category | product | buttonName  | message       |
+      | Monitors | 2       | Add to card | product added |
