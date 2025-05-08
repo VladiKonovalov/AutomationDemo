@@ -5,29 +5,33 @@ Feature: open and test the website
     And navigate to tested website
 
 
-  Scenario Outline: try login with not existed user
-    Given press on <buttonName> button
-    When enter invalid username and password
-    Then got an error message
+  Scenario Outline: try login with not existed user or wrong password
+    Given press on '<buttonName>' button
+    When login with '<username>' and '<password>'
+    Then got an alert with right '<message>'
 
     Examples:
-      | buttonName |
-      | 'Login'    |
+      | buttonName | username | password | message             |
+      | Login      | random   | random   | user does not exist |
+      | Login      | a        | random   | 'wrong password'    |
 
 
-  Scenario Outline: try login with existing user
-    Given press on <buttonName> button
-    When login with <username> and <password>
-    Then got a welcome text for <username>
+  Scenario Outline: try login with existing user and right password
+    Given press on '<buttonName>' button
+    When login with '<username>' and '<password>'
+    Then got a welcome text for '<username>'
 
     Examples:
-      | buttonName |username|password|
-      | 'Login'    |'a'       |'a'|
+      | buttonName | username | password |
+      | Login      | a        | a        |
 
 
-  Scenario Outline: User check one of the categories
-    When the user navigates to the 'category' category page
+  Scenario Outline: a new User sing in
+    Given press on '<buttonName>' button
+    When sign in a new user
+    Then got an alert with right '<message>'
+
     Examples:
-      | category |
-      | Laptops   |
+      | buttonName | message             |
+      | Sign up    | Sign up successful. |
 

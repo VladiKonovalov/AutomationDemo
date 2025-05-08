@@ -1,0 +1,9 @@
+
+ wrong text during singin 
+1)enter to website 
+2)press on "sign up"
+3) enter new username and password
+4) press "signup"
+expected : you sign succesful
+actual : "this user already exist" 
+(not constinanly)
