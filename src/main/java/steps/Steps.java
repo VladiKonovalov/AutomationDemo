@@ -79,9 +79,9 @@ public class Steps {
     public void gotAnAlertMessage(String message) {
 
         Alert alert = driver.switchTo().alert();
-        String alertText = alert.getText();
+        String alertText = alert.getText().toLowerCase();
         System.out.println("Alert: " + alertText);
-        Asserts.check(alertText.toLowerCase().equals(message.toLowerCase()), "the alert showing: '" + alertText + "' but we expected: '" + message + "'");
+        Asserts.check(alertText.equals(message.toLowerCase()), "the alert showing: '" + alertText + "' but we expected: '" + message + "'");
         alert.accept();
         driver.quit();
 

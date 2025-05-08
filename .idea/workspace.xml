@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c4adf87-6314-400b-bf86-f58d7a715a0f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugReport.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BugReport.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/features/tests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/tests.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Steps.java" afterDir="false" />
     </list>
@@ -49,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: a User put in card item">
+  <component name="RunManager" selected="Cucumber Java.Feature: tests">
     <configuration name="Feature: tests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/features/tests.feature" />
@@ -151,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: tests" />
         <item itemvalue="Cucumber Java.Scenario: a User put in card item" />
         <item itemvalue="Cucumber Java.Scenario: a new User sing in" />
         <item itemvalue="Cucumber Java.Scenario: try login with existing user and right password" />
-        <item itemvalue="Cucumber Java.Feature: tests" />
         <item itemvalue="Cucumber Java.Scenario: try login with existing user" />
       </list>
     </recent_temporary>

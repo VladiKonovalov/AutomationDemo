@@ -11,9 +11,9 @@ Feature: open and test the website
     Then got an alert with right '<message>'
 
     Examples:
-      | buttonName | username | password | message             |
-      | Login      | random   | random   | user does not exist |
-      | Login      | a        | random   | 'wrong password'    |
+      | buttonName | username | password | message              |
+      | Login      | random   | random   | User does not exist. |
+      | Login      | a        | random   | wrong password.      |
 
 
   Scenario Outline: try login with existing user and right password
@@ -40,7 +40,6 @@ Feature: open and test the website
     And press on product number <product>
     Given press on '<buttonName>' button
     Then got an alert with right '<message>'
-    And verify it exist in
     Examples:
       | category | product | buttonName  | message       |
       | Monitors | 2       | Add to card | product added |

@@ -1,9 +1,16 @@
 
- wrong text during singin 
-1)enter to website 
-2)press on "sign up"
-3) enter new username and password
-4) press "signup"
-expected : you sign succesful
-actual : "this user already exist" 
-(not constinanly)
+not checking country/city and other fields in place order
+1) choose an item and add to card 
+2) enter to "cart"
+3)press "place order"
+in this fields you can put fake credit card , fake country ,fake city , month an year 
+expected : only real country , city ,credit card  , real year , real month 
+actual : you could put even string in places where suppoose be numbers 
+
+
+ possible make order of empty cart 
+1) enter to "cart"
+2)press "place order"
+3) fiel the order 
+expected: get error cause card is empty
+actual: success to purchase empty buscaet 
