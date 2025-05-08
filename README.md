@@ -7,4 +7,5 @@ in src/main/java/features->test.feature
 
 after you open the page press with right click on the file and press "run test.feature"
 and wait until it finish
- 
+
+ an youtube link to video: https://youtu.be/OTdW8FWL15o
