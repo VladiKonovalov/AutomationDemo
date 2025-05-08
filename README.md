@@ -8,10 +8,12 @@ in src/main/java/features->test.feature
 after you open the page press with right click on the file and press "run test.feature"
 and wait until it finish
 
- an youtube link to video: https://youtu.be/OTdW8FWL15o
+ an youtube link to video: 
+ https://www.youtube.com/watch?v=OTdW8FWL15o&ab_channel=VladiCode
 
 
 the bugs that been found in the system i put in the tab "Issues" in github
+
 ![image](https://github.com/user-attachments/assets/e0624299-2d34-4d1a-a28a-9908ffde3c99)
 
 
